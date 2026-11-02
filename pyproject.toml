@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cx123323-featplat_jd291"
+name = "cx123323-refusal_boundary_ratio_calc"
 version = "0.1.0"
 description = "从输入中抽取数值，计算特征平台工程师·拒答边界与过度拒答相关的比值与占比，分母为零时明确报错"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://cx123323.github.io"
-Repository = "https://github.com/cx123323/featplat_jd291"
-Issues = "https://github.com/cx123323/featplat_jd291/issues"
+Repository = "https://github.com/cx123323/refusal_boundary_ratio_calc"
+Issues = "https://github.com/cx123323/refusal_boundary_ratio_calc/issues"
 
 [project.scripts]
-featplat_jd291 = "featplat_jd291:main"
+refusal_boundary_ratio_calc = "refusal_boundary_ratio_calc:main"
 
 [tool.setuptools]
-py-modules = ["featplat_jd291"]
+py-modules = ["refusal_boundary_ratio_calc"]
